@@ -12,7 +12,7 @@ import java.util.Properties;
  * weixi: zhisheng_tian
  * blog: http://www.54tianzhisheng.cn/
  */
-public class Main {
+public class Main1 {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
