@@ -1,6 +1,7 @@
 package com.key2wen.sink;
 
 import com.alibaba.fastjson.JSON;
+import com.key2wen.mysql.Student;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

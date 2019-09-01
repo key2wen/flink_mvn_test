@@ -1,5 +1,6 @@
 package com.key2wen.sink;
 
+import com.key2wen.mysql.Student;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 
