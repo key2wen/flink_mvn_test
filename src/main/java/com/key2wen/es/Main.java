@@ -23,7 +23,7 @@
 // * 微信公众号：zhisheng
 // */
 //@Slf4j
-//public class Main1 {
+//public class Kafka2RabbitMqMain {
 //    public static void main(String[] args) throws Exception {
 //        final ParameterTool parameterTool = ExecutionEnvUtil.createParameterTool(args);
 //        StreamExecutionEnvironment env = ExecutionEnvUtil.prepare(parameterTool);
