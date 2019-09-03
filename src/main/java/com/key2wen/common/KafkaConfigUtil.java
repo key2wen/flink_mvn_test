@@ -24,8 +24,6 @@ import static com.key2wen.common.constant.PropertiesConstants.*;
 
 
 /**
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class KafkaConfigUtil {
 

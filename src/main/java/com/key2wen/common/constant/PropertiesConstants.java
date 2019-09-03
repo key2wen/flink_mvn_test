@@ -1,8 +1,6 @@
 package com.key2wen.common.constant;
 
 /**
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class PropertiesConstants {
     public static final String ZHISHENG = "zhisheng";

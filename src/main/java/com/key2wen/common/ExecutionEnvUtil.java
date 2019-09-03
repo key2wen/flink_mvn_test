@@ -11,8 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class ExecutionEnvUtil {
     public static ParameterTool createParameterTool(final String[] args) throws Exception {

@@ -11,8 +11,6 @@ import java.util.Properties;
 /**
  * 往kafka中写数据
  * 可以使用这个main函数进行测试一下
- * weixin: zhisheng_tian
- * blog: http://www.54tianzhisheng.cn/
  */
 public class KafkaUtils {
     public static final String broker_list = "localhost:9092";

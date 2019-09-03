@@ -7,8 +7,6 @@ import org.apache.flink.streaming.api.watermark.Watermark;
 import javax.annotation.Nullable;
 
 /**
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class MetricWatermark implements AssignerWithPeriodicWatermarks<MetricEvent> {
 

@@ -4,8 +4,6 @@ import java.util.Map;
 
 /**
  * Desc:
- * weixi: zhisheng_tian
- * blog: http://www.54tianzhisheng.cn/
  */
 public class Metric {
     public String name;

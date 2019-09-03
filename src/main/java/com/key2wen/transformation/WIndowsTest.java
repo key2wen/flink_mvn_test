@@ -10,7 +10,6 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 import java.util.Properties;
 
 /**
- * http://www.54tianzhisheng.cn/2018/11/04/Flink-Data-transformation/
  */
 public class WIndowsTest {
 

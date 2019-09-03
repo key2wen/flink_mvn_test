@@ -17,9 +17,6 @@ import org.apache.hadoop.mapreduce.Job;
 
 /**
  * Desc: 写入数据到 HBase
- * Created by zhisheng on 2019-05-04
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class HBaseWriteMain {
 

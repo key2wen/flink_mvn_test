@@ -15,8 +15,6 @@ import java.util.Iterator;
 
 /**
  * @Description hbase reader
- * @Author jiangxiaozhi
- * @Date 2018/10/17 10:05
  * <p>
  * 这里读HBase提供两种方式，一种是继承RichSourceFunction，重写父类方法，一种是实现OutputFormat接口，具体代码如下：
  * <p>

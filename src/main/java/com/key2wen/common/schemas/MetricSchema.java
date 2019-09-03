@@ -12,8 +12,6 @@ import java.nio.charset.Charset;
 /**
  * Metric Schema ，支持序列化和反序列化
  * <p>
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class MetricSchema implements DeserializationSchema<MetricEvent>, SerializationSchema<MetricEvent> {
 

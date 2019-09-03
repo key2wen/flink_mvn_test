@@ -9,8 +9,6 @@ import java.util.Properties;
 
 /**
  * Desc: 往kafka中写数据,可以使用这个main函数进行测试
- * Created by zhisheng on 2019-02-17
- * Blog: http://www.54tianzhisheng.cn/tags/Flink/
  *
  * 这里我依旧用的以前的 student 类，自己本地起了 kafka 然后造一些测试数据，这里我们测试发送一条数据则 sleep 10s，意味着往 kafka 中一分钟发 6 条数据。
  */

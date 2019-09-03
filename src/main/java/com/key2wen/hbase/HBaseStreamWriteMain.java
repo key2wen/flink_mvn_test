@@ -23,9 +23,6 @@ import static com.key2wen.hbase.HBaseConstant.*;
 
 /**
  * Desc: 读取流数据，然后写入到 HBase
- * Created by zhisheng on 2019-05-04
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 @Slf4j
 public class HBaseStreamWriteMain {

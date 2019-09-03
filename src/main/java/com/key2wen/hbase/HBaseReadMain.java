@@ -11,9 +11,6 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 /**
  * Desc: 读取 HBase 数据
- * Created by zhisheng on 2019-05-04
- * blog：http://www.54tianzhisheng.cn/
- * 微信公众号：zhisheng
  */
 public class HBaseReadMain {
     //表名

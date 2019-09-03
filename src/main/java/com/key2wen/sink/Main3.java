@@ -11,8 +11,6 @@ import java.util.Properties;
 
 /**
  * Desc:
- * weixin: zhisheng_tian
- * blog: http://www.54tianzhisheng.cn/
  */
 public class Main3 {
     public static void main(String[] args) throws Exception {

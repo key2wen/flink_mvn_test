@@ -11,8 +11,6 @@ import java.sql.ResultSet;
 
 /**
  * Desc:
- * weixi: zhisheng_tian
- * blog: http://www.54tianzhisheng.cn/
  */
 public class SourceFromMySQL extends RichSourceFunction<Student> {
 

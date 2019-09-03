@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * Desc: 数据批量 sink 数据到 mysql
- * Created by zhisheng_tian on 2019-02-17
- * Blog: http://www.54tianzhisheng.cn/tags/Flink/
  */
 public class SinkBatchToMySQL extends RichSinkFunction<List<Student>> {
     PreparedStatement ps;

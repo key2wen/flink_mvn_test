@@ -10,8 +10,6 @@ import java.sql.PreparedStatement;
 
 /**
  * Desc:
- * weixin: zhisheng_tian
- * blog: http://www.54tianzhisheng.cn/
  */
 public class SinkToMySQL extends RichSinkFunction<Student> {
     PreparedStatement ps;

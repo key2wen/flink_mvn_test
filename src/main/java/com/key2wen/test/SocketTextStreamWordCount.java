@@ -17,7 +17,6 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Created by zhisheng_tian on 2018/9/18
  */
 public class SocketTextStreamWordCount {
     public static void main(String[] args) throws Exception {

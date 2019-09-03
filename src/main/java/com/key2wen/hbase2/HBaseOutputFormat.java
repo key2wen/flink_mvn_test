@@ -16,8 +16,6 @@ import java.io.IOException;
 
 /**
  * @Description HBaseOutputFormat
- * @Author jiangxiaozhi
- * @Date 2018/10/16 14:06
  * 写入HBase也有两种方法，其中写入和写入mysql类似，这里重点说明实现OutputFormat接口进行写入：
  **/
 public class HBaseOutputFormat implements OutputFormat<Tuple2<String, String>> {
