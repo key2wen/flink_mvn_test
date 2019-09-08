@@ -21,13 +21,13 @@ import java.util.Properties;
 public class SocketTextStreamWordCount {
     public static void main(String[] args) throws Exception {
         //参数检查
-        if (args.length != 2) {
-            System.err.println("USAGE:\nSocketTextStreamWordCount <hostname> <port>");
-            return;
-        }
+//        if (args.length != 2) {
+////            System.err.println("USAGE:\nSocketTextStreamWordCount <hostname> <port>");
+////            return;
+////        }
 
-        String hostname = args[0];
-        Integer port = Integer.parseInt(args[1]);
+        String hostname = "127.0.0.1";
+        Integer port = Integer.parseInt("9000");
 
 
         // set up the streaming execution environment
@@ -37,8 +37,12 @@ public class SocketTextStreamWordCount {
         DataStreamSource<String> stream = env.socketTextStream(hostname, port);
 
         //计数
-        SingleOutputStreamOperator<Tuple2<String, Integer>> sum = stream.flatMap(new LineSplitter())
+        SingleOutputStreamOperator<Tuple2<String, Integer>> sum = stream
+                .flatMap(new LineSplitter())
                 .keyBy(0)
+
+//                .countWindowAll(1l)
+
                 .sum(1);
 
         sum.print();
