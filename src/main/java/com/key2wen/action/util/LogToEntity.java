@@ -8,7 +8,7 @@ import com.key2wen.action.domain.LogEntity;
 public class LogToEntity {
 
     public static LogEntity getLog(String s) {
-        System.out.println(s);
+        System.out.println("输入的数据为：" + s);
         String[] values = s.split(",");
         if (values.length < 2) {
             System.out.println("Message is not correct");
