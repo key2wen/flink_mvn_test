@@ -48,7 +48,7 @@ public class TopProductTask2 {
                 })
 
                 // 按照productId 按滑动窗口
-                .keyBy("productId").timeWindow(Time.seconds(60), Time.seconds(5))
+                .keyBy("productId").timeWindow(Time.seconds(10), Time.seconds(5))
 //                .sum("xx")
                 .aggregate(new CountAgg(), new WindowResultFunction())
 
@@ -62,7 +62,7 @@ public class TopProductTask2 {
                             top.setRankName(String.valueOf(i));
                             top.setProductId(Integer.parseInt(strings.get(i)));
                             // 输出排名结果
-                            System.out.println(top);
+//                            System.out.println(top);
                             collector.collect(top);
                         }
 
