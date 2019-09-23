@@ -120,13 +120,13 @@
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-java</artifactId>
-      <version>1.8.0</version>
+      <version>1.7.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-java_2.11</artifactId>
-      <version>1.8.0</version>
+      <version>1.7.1</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -135,6 +135,10 @@
         </exclusion>
         <exclusion>
           <artifactId>flink-clients_2.11</artifactId>
+          <groupId>org.apache.flink</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>flink-shaded-guava</artifactId>
           <groupId>org.apache.flink</groupId>
         </exclusion>
       </exclusions>
@@ -156,7 +160,7 @@
     <rocketmq.version>4.5.2</rocketmq.version>
     <java.version>1.8</java.version>
     <scala.binary.version>2.11</scala.binary.version>
-    <flink.version>1.8.0</flink.version>
+    <flink.version>1.7.1</flink.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.target>${java.version}</maven.compiler.target>
