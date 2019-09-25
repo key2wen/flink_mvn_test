@@ -80,6 +80,14 @@ under the License.
             </exclusions>
         </dependency>
 
+
+        <!--exactly once -->
+        <!--<dependency>-->
+            <!--<groupId>com.data-artisans</groupId>-->
+            <!--<artifactId>flink-training-exercises</artifactId>-->
+            <!--<version>0.15.2</version>-->
+        <!--</dependency>-->
+
         <!-- hive -->
         <dependency>
             <groupId>org.apache.hive</groupId>
